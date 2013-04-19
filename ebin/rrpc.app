@@ -1,0 +1,11 @@
+{application,rrpc,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{rrpc_app,[]}},
+              {env,[]},
+              {modules,[reloader,rrpc,rrpc_amr,rrpc_app,rrpc_apr,
+                        rrpc_consumer,rrpc_consumer_sup,rrpc_services_sup,
+                        rrpc_sup,rrpc_test_publisher,rrpc_test_service,
+                        rrpc_util,service_ansible,start]}]}.

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export ERL_LIBS=libs
+
+erl -pa ebin lib/*/ebin lib/*/priv -sname rrpc_client  -setcookie aaa -boot start_sasl -config priv/rrpc -s reloader 
+
+

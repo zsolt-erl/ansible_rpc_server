@@ -1,5 +1,10 @@
 .eunit
 deps
 *.o
+*.so
 *.beam
 *.plt
+*~
+*.swp
+priv/logs/*
+erl_crash.dump
